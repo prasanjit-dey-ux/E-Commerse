@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+    display: block;
+}
+
+*{
+    font-family: Outfit;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  @media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color:white
+    }
+  }
+  
+  /* Ensure filter dropdown icon stay below the sidebar */
+/* 
+  .filter-dropdown-icon {
+    position: relative;
+    z-index: 1;
+  } */
+
+  /* Ensure sidebar dropdown icon appears above everything */
+
+  /* .sidebar-dropdown-icon {
+    z-index: 10;
+  } */
+
+  /* Sidebar should have a higher z-index */
+  /* .sidebar {
+    z-index: 20;
+  } */
